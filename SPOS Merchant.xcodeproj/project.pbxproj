@@ -3,27 +3,61 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1A213A4424EB77E300BB06E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A213A4324EB77E300BB06E9 /* AppDelegate.swift */; };
-		1A213A4624EB77E300BB06E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A213A4524EB77E300BB06E9 /* SceneDelegate.swift */; };
-		1A213A4824EB77E300BB06E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A213A4724EB77E300BB06E9 /* ViewController.swift */; };
-		1A213A4B24EB77E300BB06E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A213A4924EB77E300BB06E9 /* Main.storyboard */; };
 		1A213A4D24EB77E600BB06E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A213A4C24EB77E600BB06E9 /* Assets.xcassets */; };
 		1A213A5024EB77E600BB06E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A213A4E24EB77E600BB06E9 /* LaunchScreen.storyboard */; };
+		1A213A5D24EB782D00BB06E9 /* ScanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A213A5C24EB782D00BB06E9 /* ScanVC.swift */; };
+		1A213A6024EB7ACE00BB06E9 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A213A5F24EB7ACE00BB06E9 /* UIColor+.swift */; };
+		1A213A6324EB7B2400BB06E9 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A213A6224EB7B2400BB06E9 /* BaseViewController.swift */; };
+		1A213A6624EB7DC600BB06E9 /* ClientManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A213A6524EB7DC600BB06E9 /* ClientManager.swift */; };
+		1A213A6924EB7E1000BB06E9 /* CreateOrderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A213A6724EB7E1000BB06E9 /* CreateOrderVC.swift */; };
+		1A213A6A24EB7E1000BB06E9 /* CreateOrderVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A213A6824EB7E1000BB06E9 /* CreateOrderVC.xib */; };
+		1A213A6D24EB813000BB06E9 /* OMApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A213A6C24EB813000BB06E9 /* OMApi.swift */; };
+		1A213A7024EB8A1E00BB06E9 /* OrderPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A213A6F24EB8A1E00BB06E9 /* OrderPayload.swift */; };
+		1A213A7224EB8A2C00BB06E9 /* OrderCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A213A7124EB8A2C00BB06E9 /* OrderCustomer.swift */; };
+		1A213A7424EB8A4100BB06E9 /* OrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A213A7324EB8A4100BB06E9 /* OrderItem.swift */; };
+		1A213A7624EB8CCF00BB06E9 /* ShippingInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A213A7524EB8CCE00BB06E9 /* ShippingInfo.swift */; };
+		1A213A7824EB92F100BB06E9 /* OrderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A213A7724EB92F100BB06E9 /* OrderResponse.swift */; };
+		1A213A7A24EB95D700BB06E9 /* Double+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A213A7924EB95D700BB06E9 /* Double+.swift */; };
+		1A213A7C24EBC11D00BB06E9 /* AuthApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A213A7B24EBC11D00BB06E9 /* AuthApi.swift */; };
+		1A213A8024EBD13000BB06E9 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A213A7F24EBD13000BB06E9 /* Token.swift */; };
+		1A213A8424EBD27100BB06E9 /* PhoneLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A213A8224EBD27100BB06E9 /* PhoneLoginVC.swift */; };
+		1A213A8524EBD27100BB06E9 /* PhoneLoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A213A8324EBD27100BB06E9 /* PhoneLoginVC.xib */; };
+		1A213A8724EBD49E00BB06E9 /* IdApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A213A8624EBD49E00BB06E9 /* IdApi.swift */; };
+		67A6D817A611020493CE91C5 /* Pods_SPOS_Merchant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DEB50A77CE29ABC5FBDB79 /* Pods_SPOS_Merchant.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07DEB50A77CE29ABC5FBDB79 /* Pods_SPOS_Merchant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPOS_Merchant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A213A4024EB77E300BB06E9 /* SPOS Merchant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SPOS Merchant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A213A4324EB77E300BB06E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1A213A4524EB77E300BB06E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1A213A4724EB77E300BB06E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1A213A4A24EB77E300BB06E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A213A4C24EB77E600BB06E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A213A4F24EB77E600BB06E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A213A5124EB77E600BB06E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A213A5C24EB782D00BB06E9 /* ScanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanVC.swift; sourceTree = "<group>"; };
+		1A213A5F24EB7ACE00BB06E9 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		1A213A6224EB7B2400BB06E9 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		1A213A6524EB7DC600BB06E9 /* ClientManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientManager.swift; sourceTree = "<group>"; };
+		1A213A6724EB7E1000BB06E9 /* CreateOrderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrderVC.swift; sourceTree = "<group>"; };
+		1A213A6824EB7E1000BB06E9 /* CreateOrderVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateOrderVC.xib; sourceTree = "<group>"; };
+		1A213A6C24EB813000BB06E9 /* OMApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMApi.swift; sourceTree = "<group>"; };
+		1A213A6F24EB8A1E00BB06E9 /* OrderPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderPayload.swift; sourceTree = "<group>"; };
+		1A213A7124EB8A2C00BB06E9 /* OrderCustomer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCustomer.swift; sourceTree = "<group>"; };
+		1A213A7324EB8A4100BB06E9 /* OrderItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderItem.swift; sourceTree = "<group>"; };
+		1A213A7524EB8CCE00BB06E9 /* ShippingInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShippingInfo.swift; sourceTree = "<group>"; };
+		1A213A7724EB92F100BB06E9 /* OrderResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderResponse.swift; sourceTree = "<group>"; };
+		1A213A7924EB95D700BB06E9 /* Double+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+.swift"; sourceTree = "<group>"; };
+		1A213A7B24EBC11D00BB06E9 /* AuthApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthApi.swift; sourceTree = "<group>"; };
+		1A213A7F24EBD13000BB06E9 /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		1A213A8224EBD27100BB06E9 /* PhoneLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneLoginVC.swift; sourceTree = "<group>"; };
+		1A213A8324EBD27100BB06E9 /* PhoneLoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhoneLoginVC.xib; sourceTree = "<group>"; };
+		1A213A8624EBD49E00BB06E9 /* IdApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdApi.swift; sourceTree = "<group>"; };
+		8A88944EE38B4FA54AC20CDC /* Pods-SPOS Merchant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPOS Merchant.debug.xcconfig"; path = "Target Support Files/Pods-SPOS Merchant/Pods-SPOS Merchant.debug.xcconfig"; sourceTree = "<group>"; };
+		E6A497C732F8DAEA6B967C85 /* Pods-SPOS Merchant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPOS Merchant.release.xcconfig"; path = "Target Support Files/Pods-SPOS Merchant/Pods-SPOS Merchant.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67A6D817A611020493CE91C5 /* Pods_SPOS_Merchant.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +77,8 @@
 			children = (
 				1A213A4224EB77E300BB06E9 /* SPOS Merchant */,
 				1A213A4124EB77E300BB06E9 /* Products */,
+				1BB55708E9013CE8093ABEB9 /* Pods */,
+				315FFBC3E6D4DB50A447AAF6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +93,119 @@
 		1A213A4224EB77E300BB06E9 /* SPOS Merchant */ = {
 			isa = PBXGroup;
 			children = (
+				1A213A6E24EB8A0A00BB06E9 /* Model */,
+				1A213A6B24EB812400BB06E9 /* Networking */,
+				1A213A6424EB7DBB00BB06E9 /* Manager */,
+				1A213A6124EB7B1A00BB06E9 /* Common */,
+				1A213A5E24EB7AC500BB06E9 /* Extensions */,
+				1A213A5724EB780A00BB06E9 /* Screens */,
 				1A213A4324EB77E300BB06E9 /* AppDelegate.swift */,
-				1A213A4524EB77E300BB06E9 /* SceneDelegate.swift */,
-				1A213A4724EB77E300BB06E9 /* ViewController.swift */,
-				1A213A4924EB77E300BB06E9 /* Main.storyboard */,
 				1A213A4C24EB77E600BB06E9 /* Assets.xcassets */,
 				1A213A4E24EB77E600BB06E9 /* LaunchScreen.storyboard */,
 				1A213A5124EB77E600BB06E9 /* Info.plist */,
 			);
 			path = "SPOS Merchant";
+			sourceTree = "<group>";
+		};
+		1A213A5724EB780A00BB06E9 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				1A213A8124EBD26300BB06E9 /* PhoneLogin */,
+				1A213A5B24EB781D00BB06E9 /* CreateOrder */,
+				1A213A5A24EB781900BB06E9 /* Scan */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		1A213A5A24EB781900BB06E9 /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				1A213A5C24EB782D00BB06E9 /* ScanVC.swift */,
+			);
+			path = Scan;
+			sourceTree = "<group>";
+		};
+		1A213A5B24EB781D00BB06E9 /* CreateOrder */ = {
+			isa = PBXGroup;
+			children = (
+				1A213A6724EB7E1000BB06E9 /* CreateOrderVC.swift */,
+				1A213A6824EB7E1000BB06E9 /* CreateOrderVC.xib */,
+			);
+			path = CreateOrder;
+			sourceTree = "<group>";
+		};
+		1A213A5E24EB7AC500BB06E9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1A213A5F24EB7ACE00BB06E9 /* UIColor+.swift */,
+				1A213A7924EB95D700BB06E9 /* Double+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1A213A6124EB7B1A00BB06E9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1A213A6224EB7B2400BB06E9 /* BaseViewController.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		1A213A6424EB7DBB00BB06E9 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				1A213A6524EB7DC600BB06E9 /* ClientManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		1A213A6B24EB812400BB06E9 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				1A213A6C24EB813000BB06E9 /* OMApi.swift */,
+				1A213A7B24EBC11D00BB06E9 /* AuthApi.swift */,
+				1A213A8624EBD49E00BB06E9 /* IdApi.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		1A213A6E24EB8A0A00BB06E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1A213A6F24EB8A1E00BB06E9 /* OrderPayload.swift */,
+				1A213A7124EB8A2C00BB06E9 /* OrderCustomer.swift */,
+				1A213A7324EB8A4100BB06E9 /* OrderItem.swift */,
+				1A213A7524EB8CCE00BB06E9 /* ShippingInfo.swift */,
+				1A213A7724EB92F100BB06E9 /* OrderResponse.swift */,
+				1A213A7F24EBD13000BB06E9 /* Token.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1A213A8124EBD26300BB06E9 /* PhoneLogin */ = {
+			isa = PBXGroup;
+			children = (
+				1A213A8224EBD27100BB06E9 /* PhoneLoginVC.swift */,
+				1A213A8324EBD27100BB06E9 /* PhoneLoginVC.xib */,
+			);
+			path = PhoneLogin;
+			sourceTree = "<group>";
+		};
+		1BB55708E9013CE8093ABEB9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A88944EE38B4FA54AC20CDC /* Pods-SPOS Merchant.debug.xcconfig */,
+				E6A497C732F8DAEA6B967C85 /* Pods-SPOS Merchant.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		315FFBC3E6D4DB50A447AAF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07DEB50A77CE29ABC5FBDB79 /* Pods_SPOS_Merchant.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +215,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A213A5424EB77E600BB06E9 /* Build configuration list for PBXNativeTarget "SPOS Merchant" */;
 			buildPhases = (
+				A6575A9932B0559D883BC775 /* [CP] Check Pods Manifest.lock */,
 				1A213A3C24EB77E300BB06E9 /* Sources */,
 				1A213A3D24EB77E300BB06E9 /* Frameworks */,
 				1A213A3E24EB77E300BB06E9 /* Resources */,
+				B388E53088A3B9EE98392B12 /* [CP] Embed Pods Frameworks */,
+				F8A65FD9C8F3ED77AA0A5942 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,35 +270,101 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A213A5024EB77E600BB06E9 /* LaunchScreen.storyboard in Resources */,
+				1A213A8524EBD27100BB06E9 /* PhoneLoginVC.xib in Resources */,
 				1A213A4D24EB77E600BB06E9 /* Assets.xcassets in Resources */,
-				1A213A4B24EB77E300BB06E9 /* Main.storyboard in Resources */,
+				1A213A6A24EB7E1000BB06E9 /* CreateOrderVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A6575A9932B0559D883BC775 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SPOS Merchant-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B388E53088A3B9EE98392B12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SPOS Merchant/Pods-SPOS Merchant-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SPOS Merchant/Pods-SPOS Merchant-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SPOS Merchant/Pods-SPOS Merchant-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8A65FD9C8F3ED77AA0A5942 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SPOS Merchant/Pods-SPOS Merchant-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SPOS Merchant/Pods-SPOS Merchant-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SPOS Merchant/Pods-SPOS Merchant-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1A213A3C24EB77E300BB06E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A213A4824EB77E300BB06E9 /* ViewController.swift in Sources */,
+				1A213A8724EBD49E00BB06E9 /* IdApi.swift in Sources */,
 				1A213A4424EB77E300BB06E9 /* AppDelegate.swift in Sources */,
-				1A213A4624EB77E300BB06E9 /* SceneDelegate.swift in Sources */,
+				1A213A7C24EBC11D00BB06E9 /* AuthApi.swift in Sources */,
+				1A213A7A24EB95D700BB06E9 /* Double+.swift in Sources */,
+				1A213A7824EB92F100BB06E9 /* OrderResponse.swift in Sources */,
+				1A213A6924EB7E1000BB06E9 /* CreateOrderVC.swift in Sources */,
+				1A213A6324EB7B2400BB06E9 /* BaseViewController.swift in Sources */,
+				1A213A8024EBD13000BB06E9 /* Token.swift in Sources */,
+				1A213A7624EB8CCF00BB06E9 /* ShippingInfo.swift in Sources */,
+				1A213A7024EB8A1E00BB06E9 /* OrderPayload.swift in Sources */,
+				1A213A8424EBD27100BB06E9 /* PhoneLoginVC.swift in Sources */,
+				1A213A5D24EB782D00BB06E9 /* ScanVC.swift in Sources */,
+				1A213A6D24EB813000BB06E9 /* OMApi.swift in Sources */,
+				1A213A6024EB7ACE00BB06E9 /* UIColor+.swift in Sources */,
+				1A213A7424EB8A4100BB06E9 /* OrderItem.swift in Sources */,
+				1A213A7224EB8A2C00BB06E9 /* OrderCustomer.swift in Sources */,
+				1A213A6624EB7DC600BB06E9 /* ClientManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1A213A4924EB77E300BB06E9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1A213A4A24EB77E300BB06E9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1A213A4E24EB77E600BB06E9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,16 +492,23 @@
 		};
 		1A213A5524EB77E600BB06E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A88944EE38B4FA54AC20CDC /* Pods-SPOS Merchant.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 2G2F7B8D22;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "SPOS Merchant/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "vn.teko.SPOS-Merchant";
+				MARKETING_VERSION = 1.0.3;
+				PRODUCT_BUNDLE_IDENTIFIER = vn.teko.spos.merchant;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = SPosMerchant_AppStore;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,16 +516,23 @@
 		};
 		1A213A5624EB77E600BB06E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6A497C732F8DAEA6B967C85 /* Pods-SPOS Merchant.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 2G2F7B8D22;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "SPOS Merchant/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "vn.teko.SPOS-Merchant";
+				MARKETING_VERSION = 1.0.3;
+				PRODUCT_BUNDLE_IDENTIFIER = vn.teko.spos.merchant;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = SPosMerchant_AppStore;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
